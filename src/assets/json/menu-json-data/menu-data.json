@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "displayName": "",
+            "iconName": "home",
+            "route": "/",
+            "disabled": false,
+            "title": "Go to home"
+        },
+        {
+            "displayName": "Cowin",
+            "iconName": "health_and_safety",
+            "children": [
+                {
+                    "displayName": "Search Cowin",
+                    "disabled": false,
+                    "iconName": "search",
+                    "route": "/cowinCenter",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
