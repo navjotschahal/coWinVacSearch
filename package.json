@@ -27,6 +27,8 @@
     "@angular/platform-browser": "~11.2.10",
     "@angular/platform-browser-dynamic": "~11.2.10",
     "@angular/router": "~11.2.10",
+    "@rxweb/reactive-dynamic-forms": "0.0.5",
+    "@rxweb/reactive-form-validators": "^2.1.2",
     "@types/howler": "^2.2.2",
     "electron-squirrel-startup": "^1.0.0",
     "howler": "^2.2.1",
