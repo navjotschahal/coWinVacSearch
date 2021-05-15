@@ -13,5 +13,8 @@ export class CowinQueryService {
     private apiService: ApiService
   ) { }
 
-  getAvailableVaccacineCenters = (): Observable<Cowin.CenterList> => this.apiService.httpGet(API_SIGNATURES.apiCoVacAvailableAppointmentV2);
+  getAvailableVaccacineCenters = (pincode, date): Observable<Cowin.CenterList> => {
+    const payLoad = {pincode, date}
+    return this.apiService.httpGet(API_SIGNATURES.apiCoVacAvailableAppointmentV2, payLoad)
+  };
 }
