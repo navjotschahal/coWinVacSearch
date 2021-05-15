@@ -12,8 +12,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron": "ng build --prod --base-href ./ && tsc --p electron && electron electron/dist/main.js",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "electron:package": "electron-forge package",
+    "electron:import": "npx @electron-forge/cli import",
+    "electron:make": "electron-forge make"
   },
   "private": true,
   "dependencies": {
